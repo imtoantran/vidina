@@ -1,0 +1,15 @@
+<div class='container'>
+  <fieldset>
+	<legend>Subscription</legend>
+
+		<% if @success %>
+			You have been subscribed to <%= @plan_name.humanize %>.
+		<% else %>
+		  Subscription failed.
+		<% end %>
+	
+  </fieldset>
+</div>
+
+
+
